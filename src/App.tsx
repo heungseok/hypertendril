@@ -79,7 +79,7 @@ function App() {
             <h3 className="title">
               AutoML needs to be set up carefully
             </h3>
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+            <div className="contents flex" style={{ justifyContent: 'space-around' }}>
               <div style={{
                 flex: 1,
                 margin: 'auto',
