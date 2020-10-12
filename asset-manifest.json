@@ -1,24 +1,28 @@
 {
   "files": {
     "main.css": "/hypertendril/static/css/main.662a476a.chunk.css",
-    "main.js": "/hypertendril/static/js/main.256e8657.chunk.js",
-    "main.js.map": "/hypertendril/static/js/main.256e8657.chunk.js.map",
+    "main.js": "/hypertendril/static/js/main.babe5581.chunk.js",
+    "main.js.map": "/hypertendril/static/js/main.babe5581.chunk.js.map",
     "runtime-main.js": "/hypertendril/static/js/runtime-main.2a948dac.js",
     "runtime-main.js.map": "/hypertendril/static/js/runtime-main.2a948dac.js.map",
-    "static/js/2.32c7565b.chunk.js": "/hypertendril/static/js/2.32c7565b.chunk.js",
-    "static/js/2.32c7565b.chunk.js.map": "/hypertendril/static/js/2.32c7565b.chunk.js.map",
+    "static/js/2.1bb5a860.chunk.js": "/hypertendril/static/js/2.1bb5a860.chunk.js",
+    "static/js/2.1bb5a860.chunk.js.map": "/hypertendril/static/js/2.1bb5a860.chunk.js.map",
     "index.html": "/hypertendril/index.html",
-    "precache-manifest.e331320522c6b63897e1fbfa2a33f000.js": "/hypertendril/precache-manifest.e331320522c6b63897e1fbfa2a33f000.js",
+    "precache-manifest.705540d87658a1c08fe502da97e84984.js": "/hypertendril/precache-manifest.705540d87658a1c08fe502da97e84984.js",
     "service-worker.js": "/hypertendril/service-worker.js",
     "static/css/main.662a476a.chunk.css.map": "/hypertendril/static/css/main.662a476a.chunk.css.map",
-    "static/js/2.32c7565b.chunk.js.LICENSE.txt": "/hypertendril/static/js/2.32c7565b.chunk.js.LICENSE.txt",
+    "static/js/2.1bb5a860.chunk.js.LICENSE.txt": "/hypertendril/static/js/2.1bb5a860.chunk.js.LICENSE.txt",
+    "static/media/HyperBand_default.gif": "/hypertendril/static/media/HyperBand_default.114cd37e.gif",
+    "static/media/HyperBand_moreSH.gif": "/hypertendril/static/media/HyperBand_moreSH.c8366e31.gif",
+    "static/media/PBT_high_survive.gif": "/hypertendril/static/media/PBT_high_survive.ad830542.gif",
+    "static/media/PBT_low_survive.gif": "/hypertendril/static/media/PBT_low_survive.edb6af64.gif",
     "static/media/automl_algorithm_configuration.png": "/hypertendril/static/media/automl_algorithm_configuration.7564a7ae.png",
     "static/media/automl_algorithms_visualization.png": "/hypertendril/static/media/automl_algorithms_visualization.5fb25d1f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2a948dac.js",
-    "static/js/2.32c7565b.chunk.js",
+    "static/js/2.1bb5a860.chunk.js",
     "static/css/main.662a476a.chunk.css",
-    "static/js/main.256e8657.chunk.js"
+    "static/js/main.babe5581.chunk.js"
   ]
 }
