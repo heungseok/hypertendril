@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hypertendril/static/css/main.9f7a59d4.chunk.css",
-    "main.js": "/hypertendril/static/js/main.14fbfceb.chunk.js",
-    "main.js.map": "/hypertendril/static/js/main.14fbfceb.chunk.js.map",
+    "main.css": "/hypertendril/static/css/main.662a476a.chunk.css",
+    "main.js": "/hypertendril/static/js/main.149619df.chunk.js",
+    "main.js.map": "/hypertendril/static/js/main.149619df.chunk.js.map",
     "runtime-main.js": "/hypertendril/static/js/runtime-main.2a948dac.js",
     "runtime-main.js.map": "/hypertendril/static/js/runtime-main.2a948dac.js.map",
     "static/js/2.24fe6863.chunk.js": "/hypertendril/static/js/2.24fe6863.chunk.js",
     "static/js/2.24fe6863.chunk.js.map": "/hypertendril/static/js/2.24fe6863.chunk.js.map",
     "index.html": "/hypertendril/index.html",
-    "precache-manifest.1a05fac317bbd5ee50b82f2c853074b4.js": "/hypertendril/precache-manifest.1a05fac317bbd5ee50b82f2c853074b4.js",
+    "precache-manifest.86a4d90c5e7bec86e17af02d6f1ae67e.js": "/hypertendril/precache-manifest.86a4d90c5e7bec86e17af02d6f1ae67e.js",
     "service-worker.js": "/hypertendril/service-worker.js",
-    "static/css/main.9f7a59d4.chunk.css.map": "/hypertendril/static/css/main.9f7a59d4.chunk.css.map",
+    "static/css/main.662a476a.chunk.css.map": "/hypertendril/static/css/main.662a476a.chunk.css.map",
     "static/js/2.24fe6863.chunk.js.LICENSE.txt": "/hypertendril/static/js/2.24fe6863.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2a948dac.js",
     "static/js/2.24fe6863.chunk.js",
-    "static/css/main.9f7a59d4.chunk.css",
-    "static/js/main.14fbfceb.chunk.js"
+    "static/css/main.662a476a.chunk.css",
+    "static/js/main.149619df.chunk.js"
   ]
 }
