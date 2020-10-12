@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hypertendril/precache-manifest.318d50cbb7735dc66451beafe11a3371.js"
+  "/hypertendril/precache-manifest.1104558ded5351800c3dfb5290756374.js"
 );
 
 self.addEventListener('message', (event) => {
