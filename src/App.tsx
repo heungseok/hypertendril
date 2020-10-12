@@ -1,17 +1,32 @@
 import React from 'react';
 import './App.scss';
+import algorithmSelectionImg from './images/automl_algorithm_configuration.png';
+import automlAlgorithmVisImg from './images/automl_algorithms_visualization.png';
+import PBT_high_survive from './images/PBT_high_survive.gif';
+import PBT_low_survive from './images/PBT_low_survive.gif';
+import Hyperband_default from './images/HyperBand_default.gif';
+import Hyperband_moreSH from './images/HyperBand_moreSH.gif';
 
 function App() {
 
   const image = "https://github.com/heungseok/heungseok.github.io/blob/master/static/images/hyperTendril_teaser.png?raw=true";
+  // const algorithmSelectionImg = 
 
   return (
     <div className="App">
       <div className="container">
         <div className="header">
-          <h1>
+          <h1 style={{ marginBottom: 0 }}>
             HyperTendril: Visual Analytics for User-Driven Hyperparameter Optimization for Deep Neural Networks
           </h1>
+          <div className="headerLinks">
+            <div>
+              <a target="_blank" href="https://arxiv.org/abs/2009.02078">paper</a>
+            </div>
+            <div>
+              <a target="_blank" href="https://demo-automl.nsml.navercorp.com/about">demo</a>
+            </div>
+          </div>
         </div>
 
         <div className="project_body">
@@ -51,23 +66,64 @@ function App() {
 
           <div className="project_section">
             <h3 className="title">
-              Preview
+              Preview (25 Sec.)
             </h3>
-            <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', width: '70%', padding: '0 15%' }}>
               <div className="video-container">
-                <iframe title="HyperTendril_preview" width="80%" src="https://www.youtube.com/embed/AewQb1As5A0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe title="HyperTendril_preview" width="100%" src="https://www.youtube.com/embed/AewQb1As5A0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
             </div>
           </div>
 
           <div className="project_section">
-            <div className="links">
-              <div>
-                <a target="_blank" href="https://arxiv.org/abs/2009.02078">paper</a>
+            <h3 className="title">
+              AutoML needs to be set up carefully
+            </h3>
+            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+              <div style={{
+                flex: 1,
+                margin: 'auto',
+                lineHeight: '23px'
+              }}>
+                To relieve the pain of manually tuning hyperparameters of deep neural networks, several successful AutoML algorithms are developed such as <a href="https://arxiv.org/abs/1603.06560">HyperBand</a> and <a href="https://arxiv.org/abs/1711.09846">Popluation-Based-Training</a>.
+                However, using the AutoML methods is difficult since each method requires delicate configuration settings before using it.
+                For example, the evolutionary optimization algorithms need to carefully set the population size in advance, which determines the number of individuals to generate in each generation, since the convergence behaviors and final results can vary significantly.
+                In addition, even the AI researcher and engineers are not familar with the AutoML algorithms, and it is hard to understand the inner-workings of the algorithms.
               </div>
-              <div>
-                <a target="_blank" href="https://demo-automl.nsml.navercorp.com/about">demo</a>
+              <div style={{ flex: 1 }}>
+                <img style={{ width: '100%' }} src={algorithmSelectionImg} alt="It is hard to select proper configuration of AutoML algorithm"/>
               </div>
+            </div>
+          </div>
+
+          <div className="project_section">
+            <h3 className="title">
+              Visualization can facilitate understanding and diagnosing the AutoML
+            </h3>
+            <div style={{}}>
+              <div style={{
+                flex: 1,
+                margin: 'auto',
+                lineHeight: '25px'
+              }}>
+                HyperTendril takes a novel visual representation that visualizes the exploration history of AutoML methods, which facilitates understanding of complex behavior of the AutoML algorithms and diagnosis of the algorithm configurations with algorithm-agnostic support.
+              </div>
+              <div style={{ flex: 1 }}>
+                <img style={{ width: '100%', padding: '8px' }} src={automlAlgorithmVisImg} alt="Exploration history view"/>
+                <div style={{ color: '#555' }}>Figure 1: HyperTendril's Exploration Historiy View visualized the exploration results of the five different AutoML methods with different configurations. </div>
+              </div>
+
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img style={{ width: '35%', padding: '8px' }} src={PBT_high_survive} alt="PBT visualization (high survivor rate)"/>
+                <img style={{ width: '35%', padding: '8px' }} src={PBT_low_survive} alt="PBT visualization (low survivor rate)"/>
+              </div>
+              <div style={{ color: '#555' }}>Figure 2: Comparing high and low survivor rate <i>(S)</i> of Population Based Training (PBT) algorithm, 0.75 and 0.5 repectively (<i>Population size = 20, Generation size = 5</i>). </div>
+
+              <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                <img style={{ width: '35%', padding: '8px' }} src={Hyperband_default} alt="HyperBand visualization (high survivor rate)"/>
+                <img style={{ width: '35%', padding: '8px' }} src={Hyperband_moreSH} alt="HyperBand visualization (high survivor rate)"/>
+              </div>
+              <div style={{ color: '#555' }}>Figure 3: Comparing low and high maximum resources <i>(R)</i> of HyperBand algorithm, 16 and 32 repectively (<i>eta = 2</i>). </div>
             </div>
           </div>
 
@@ -76,7 +132,7 @@ function App() {
               Citation
             </h3>
             <div>
-              Heungseok Park, Yoonsoo Nam, Ji-hoon Kim, and Jaegul Choo. HyperTendril: Visual Analytics for User-Driven Hyperparameter Optimization for Deep Neural Networks. IEEE Transactions on Visualization and Computer Graphics and IEEE VIS 2020 (VAST).
+              <a target="_blank" href="https://heungseok.github.io/">Heungseok Park</a>, Yoonsoo Nam, Ji-hoon Kim, and <a target="_blank" href="https://sites.google.com/site/jaegulchoo/">Jaegul Choo</a>. HyperTendril: Visual Analytics for User-Driven Hyperparameter Optimization for Deep Neural Networks. IEEE Transactions on Visualization and Computer Graphics and IEEE VIS 2020 (VAST).
             </div>
           </div>
         </div>
