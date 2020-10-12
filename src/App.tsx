@@ -117,7 +117,9 @@ function App() {
                 <img style={{ width: '35%', padding: '8px' }} src={PBT_high_survive} alt="PBT visualization (high survivor rate)"/>
                 <img style={{ width: '35%', padding: '8px' }} src={PBT_low_survive} alt="PBT visualization (low survivor rate)"/>
               </div>
-              <div style={{ color: '#555' }}>Figure 2: Comparing high and low survivor rate <i>(S)</i> of Population Based Training (PBT) algorithm, 0.75 and 0.5 repectively (<i>Population size = 20, Generation size = 5</i>). </div>
+              <div style={{ color: '#555' }}>
+                Figure 2: Comparing high and low survivor rate <i>(S)</i> of Population Based Training (PBT) algorithm, 0.75 and 0.5 repectively (<i>Population size = 20, Generation size = 5</i>).
+                <i>lr</i> and <i>depth</i> are the learning rate and layer depth hyperparameters of the <a href="https://arxiv.org/abs/1512.03385">ResNet</a> models, respectively.</div>
 
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <img style={{ width: '35%', padding: '8px' }} src={Hyperband_default} alt="HyperBand visualization (high survivor rate)"/>
