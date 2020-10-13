@@ -32,7 +32,7 @@ function App() {
         <div className="project_body">
           <div className="project_section">
             <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-              <img width="80%" src={image} alt="failed to load"/>
+              <img width="90%" height="100%" src={image} alt="HyperTendril teaser image"/>
             </div>
             <div className="abstract">
               <h3 className="title">Abstract</h3>
@@ -68,7 +68,7 @@ function App() {
             <h3 className="title">
               Preview (25 Sec.)
             </h3>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', width: '70%', padding: '0 15%' }}>
+            <div className="video-container-wrapper" >
               <div className="video-container">
                 <iframe title="HyperTendril_preview" width="100%" src="https://www.youtube.com/embed/AewQb1As5A0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               </div>
@@ -91,7 +91,7 @@ function App() {
                 In addition, even the AI researcher and engineers are not familar with the AutoML algorithms, and it is hard to understand the inner-workings of the algorithms.
               </div>
               <div style={{ flex: 1 }}>
-                <img style={{ width: '100%' }} src={algorithmSelectionImg} alt="It is hard to select proper configuration of AutoML algorithm"/>
+                <img style={{ width: '100%', height: '100%',  }} src={algorithmSelectionImg} alt="It is hard to select proper configuration of AutoML algorithm"/>
               </div>
             </div>
           </div>
@@ -109,21 +109,21 @@ function App() {
                 HyperTendril takes a novel visual representation that visualizes the exploration history of AutoML methods, which facilitates understanding of complex behavior of the AutoML algorithms and diagnosis of the algorithm configurations with algorithm-agnostic support.
               </div>
               <div style={{ flex: 1 }}>
-                <img style={{ width: '100%', padding: '8px' }} src={automlAlgorithmVisImg} alt="Exploration history view"/>
+                <img style={{ width: '100%', height: '100%', paddingTop: '10px' }} src={automlAlgorithmVisImg} alt="Exploration history view"/>
                 <div style={{ color: '#555' }}>Figure 1: HyperTendril's Exploration Historiy View visualized the exploration results of the five different AutoML methods with different configurations. </div>
               </div>
 
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img style={{ width: '35%', padding: '8px' }} src={PBT_high_survive} alt="PBT visualization (high survivor rate)"/>
-                <img style={{ width: '35%', padding: '8px' }} src={PBT_low_survive} alt="PBT visualization (low survivor rate)"/>
+                <img style={{ width: '35%', height: '100%', padding: '8px' }} src={PBT_high_survive} alt="PBT visualization (high survivor rate)"/>
+                <img style={{ width: '35%', height: '100%', padding: '8px' }} src={PBT_low_survive} alt="PBT visualization (low survivor rate)"/>
               </div>
               <div style={{ color: '#555' }}>
                 Figure 2: Comparing high and low survivor rate <i>(S)</i> of Population Based Training (PBT) algorithm, 0.75 and 0.5 repectively (<i>Population size = 20, Generation size = 5</i>).
                 <i>lr</i> and <i>depth</i> are the learning rate and layer depth hyperparameters of the <a href="https://arxiv.org/abs/1512.03385">ResNet</a> models, respectively.</div>
 
               <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <img style={{ width: '35%', padding: '8px' }} src={Hyperband_default} alt="HyperBand visualization (high survivor rate)"/>
-                <img style={{ width: '35%', padding: '8px' }} src={Hyperband_moreSH} alt="HyperBand visualization (high survivor rate)"/>
+                <img style={{ width: '35%', height: '100%', padding: '8px' }} src={Hyperband_default} alt="HyperBand visualization (high survivor rate)"/>
+                <img style={{ width: '35%', height: '100%', padding: '8px' }} src={Hyperband_moreSH} alt="HyperBand visualization (high survivor rate)"/>
               </div>
               <div style={{ color: '#555' }}>Figure 3: Comparing low and high maximum resources <i>(R)</i> of HyperBand algorithm, 16 and 32 repectively (<i>eta = 2</i>). </div>
             </div>
