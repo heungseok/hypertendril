@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "950b1b6a7cd694e4ba41f352e2968494",
+    "revision": "6faf6555bf156f86d0d8eec3bce31a35",
     "url": "/hypertendril/index.html"
   },
   {
-    "revision": "3f1d21f8ba4ac157d8e5",
-    "url": "/hypertendril/static/css/main.662a476a.chunk.css"
+    "revision": "c42acdaff1ec78af2670",
+    "url": "/hypertendril/static/css/main.2870ee0f.chunk.css"
   },
   {
     "revision": "fae5132c99b60920e9dc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hypertendril/static/js/2.1bb5a860.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f1d21f8ba4ac157d8e5",
-    "url": "/hypertendril/static/js/main.7f589d13.chunk.js"
+    "revision": "c42acdaff1ec78af2670",
+    "url": "/hypertendril/static/js/main.9bccbe64.chunk.js"
   },
   {
     "revision": "2d33735b2995a8f5ab17",
